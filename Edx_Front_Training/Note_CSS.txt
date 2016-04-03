@@ -1,0 +1,18 @@
+CSS Style Rools
+______________________________
+- CSS selectors : define the Html element being manipulated by the css code
+- Declaration : Proprity and value
+
+
+
+
+
+
+
+
+
+Css notes
+----------------------
+letter-spacint: --px;
+
+content:"\Use_entity";
