@@ -1,0 +1,24 @@
+HTML Utils Tags
+==========================
+ins (insered) : txt inseré (souligner)
+del (Deleted) : suprimeer
+mark : surligner
+sup : exposant
+sub : indice
+center : centrer un contenu par default
+
+
+<a download="download" : specifie si l'element lié sera téléchergé
+
+______________
+
+Form Managing : 
+
+Select Optiongroup : Grouper des option du select
+
+fieldset : utilisé pour grouper des champ d'un formulaire. 
+legende : utilisé pour poser une etiquette sur lertieldset.
+Input atribute : 
+- pattern : defini une regle d'expression reguliere pour valider le champ
+- readonly : defini un champ non modifiable
+- desable : desactiver un champ

@@ -1,0 +1,8 @@
+https://courses.edx.org/courses/course-v1:Microsoft+DEV211.1x+1T2016/courseware/bad5907833b044ca8d51dcfed067aa2b/5e9602a7c203429b97e339f213e3acb6/
+
+I have found what seams to be an error on the page link above : content description for the "HEaD" tag seams to be the one for the HTML Tag. 
+=======================================
+
+https://courses.edx.org/courses/course-v1:Microsoft+DEV211.1x+1T2016/courseware/bad5907833b044ca8d51dcfed067aa2b/7540f70b3c7648609b24e6bb7673c644/
+
+Seams content missing here : 
