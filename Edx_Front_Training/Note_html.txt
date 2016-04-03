@@ -1,0 +1,55 @@
+HTML Utils Tags
+==========================
+ins (insered) : txt inseré (souligner)
+del (Deleted) : suprimeer
+mark : surligner
+sup : exposant
+sub : indice
+center : centrer un contenu par default
+main : contenu principale sans le nav, aside, footer...
+
+
+<a download="download" : specifie si l'element lié sera téléchergé
+
+
+Form Managing : 
+_______________________________
+
+Select Optiongroup : Grouper des option du select
+
+fieldset : utilisé pour grouper des champ d'un formulaire. 
+legende : utilisé pour poser une etiquette sur lertieldset.
+Input atribute : 
+- pattern : defini une regle d'expression reguliere pour valider le champ
+- readonly : defini un champ non modifiable
+- desable : desactiver un champ
+
+
+
+SVG : Scalable Vector Graphic
+________________________________
+- <svg> : init SVG Form. Can take a long differentes form like : <rect ... /> for rectangle and <circle ... /> and <text ... /> for the content. its can take width and height to define the working surface.
+- <rect> attr : 
+  - x, y : for the position
+  - widht, height : for the size
+  - rx, ry : for the round corner
+
+- <circle> attr : 
+  - r : ray of the circle
+  - cx, cy : position of the circle from the top left corner of the svg. To see the hole circle, cx anc cy values must be more or equal to r value, as the starting point circle is its midle. 
+
+
+
+Media play Back 
+_________________________________
+- <Video> attr :
+  - control : define the aspect of the media player
+  - poster : default image to display
+  - height : size (with proportion)
+
+- <Audio> attr : 
+  - autoplau = "autoplay" : set a default autoplay
+  - loop="loop" : set a play loop
+  - controls : 
+
+- <source> : define the source file Audio or video to play. can take attr src and type for the type of media to play. some type of media are not supported by some browser... for this pourpose, we define multiple source for multiple type of file. 
