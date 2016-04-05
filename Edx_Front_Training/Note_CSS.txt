@@ -5,7 +5,38 @@ ______________________________
 
 
 
+Inherit css proprity
+_______________________________
+this is the process of applying css proprities to children element , if concerned, that belong to the parent. like when we apply font to body and all text element inside the DOM inherite this proprity
 
+*** All Element from the DOM can herite proprities from its parents if the proprities apply to this element. 
+As Most characteristic can be inherited in css, this is where some proprities wont to increase the weight of the proprity. 
+- Ex weight order : 
+  1 id,
+  2 class
+  3 cascade (ciblage)
+  4 element
+  5 inherite
+to be considared also when we use element in cascad with id or class. All element used with id remaine the strongest. 
+
+
+
+Inheritance and Cascade
+_______________________________
+- Inheritance apply to DOM tree
+- cascade is based on the style sheet rules
+
+
+
+
+Box Models
+_______________________________
+*** Media Queries : 
+-------------------
+Types : 
+- Monitor
+- Screen / Screen read
+- Print
 
 
 
@@ -14,5 +45,6 @@ ______________________________
 Css notes
 ----------------------
 letter-spacint: --px;
+- User agent (browser) style sheet  : represente the default style for the browser
 
 content:"\Use_entity";

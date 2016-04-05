@@ -14,9 +14,52 @@
 		li::before{
 			content: "\000021";
 		}
+		
+		header#hd{
+			font-family: arial;
+		}
+
+		header.hdcls > div > p{
+			font-family: times;
+		}
+
+		.txt{
+			font-family: sans-serif;
+		}
+
+		#txtid{
+			font-family: times;
+		}
+
+		p{
+			font-family: tahoma;
+		}
+
+		input[type=checkbox]{
+			width: 25px;
+			height: 25px;
+			background: none !important;
+			-webkit-appearance: none !important;
+			-moz-appearance: none !important;
+			-ms-appearance: none !important;
+			border: 1px solid gray !important;
+
+			/* border-radius: 5px; */
+			padding: 0px !important;
+			background-color: rgba(255, 255, 255, 0.01) !important;
+		}
+
 	</style>
 </head>
 <body>
+<header id="hd" class="hdcls">
+	<div>
+		<p class="txt" id="txtid">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet.</p>
+	</div>
+	<input type="checkbox">
+</header>
+
+
 <ul>
 	<li><a href="#merkedtxt">item 1</a></li>
 	<li><a href="#deltxt">item 2</a></li>
