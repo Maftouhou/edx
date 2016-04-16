@@ -49,245 +49,47 @@
 			background-color: rgba(255, 255, 255, 0.01) !important;
 		}
 
+		nav#navId{
+			color: red;
+		}
+
+		nav{
+			color: red;
+		}
+
+		nav span{
+			color: blue;
+		}
+
+		/* nav>ul>li>span{
+			color: red;
+		} */
+
+		.spnclr{
+			color: green;
+		}
+
+		/* span{
+			color: green;
+		} */
 	</style>
 </head>
 <body>
-<header id="hd" class="hdcls">
-	<div>
-		<p class="txt" id="txtid">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet.</p>
-	</div>
-	<input type="checkbox">
-</header>
+<form action="">
+		<input id="test" type="text" name="nom"><br><br>
+		<input type="text" name="Prenom"><br><br>
 
+		<label for="dep1">dep1</label>
+		<input id="dep1" type="radio" name="dep" value="Departement 1"><br><br>
 
-<ul>
-	<li><a href="#merkedtxt">item 1</a></li>
-	<li><a href="#deltxt">item 2</a></li>
-	<li><a href="#heldtxt">item 3</a></li>
-	<li><a href="core.html#deltxt">item 4</a></li>
-</ul>
-
-<svg>
-	<rect x="10" y="15" width="100" height="100" fill="#fa0" />
-	<circle cx="30" cy="30" r="40" fill="#ccc" />
-
-</svg>
-<video height="300" controls="controls" poster="screenshot.png">
-    <source src="video.mp4" type="video/mp4" />
-</video>
-<input type="">
-<select>
-    <optgroup label="Data Platform">
-        <option value="DAT202x">Processing Big Data with Azure HDInsight</option>
-        <option value="DAT204x">Introduction to R Programming</option>
-    </optgroup>
-    <optgroup label="Cloud">
-        <option value="CLD203x">Office 365: Managing Identities and Services</option>
-    </optgroup>
-    <optgroup label="Development">
-        <option value="DEV208x">Introduction to jQuery</option>
-    </optgroup>
-</select>
-<form>
-	<fieldset>
-		<legend>User Info</legend>
-		<input type="text" name="nom"><br>
-		<input type="text" name="Prenom"><br>
-	</fieldset>
-	<fieldset>
-		<legend>User age</legend>
-		<input type="range" name="age" min="0" max="100" default="24">
-		<input type="url" readonly="readonly" value="http://">
-	</fieldset>
-	<input type="submit" value="Sublit">
+		<label for="dep2">dep2</label>
+		<input id="dep2" type="radio" name="dep" value="Departement 2"><br><br>
+	<input type="submit" value="Sublit" onclick="saveinput()">
+	<input type="submit" value="Sublit" onclick="saveradi()">
+	<p id="dateTarget"></p>
+	<button id="btnId" class="btnClass">Get Current Time</button>
 </form>
-	<div id="top">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque?</p>
-	</div>
-	<div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-	</div>
-	<div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto.</p>
-	</div>
-	<div>
-		<p>Doloribus officiis perferendis, magnam natus sit reiciendis excepturi. Repudiandae.</p>
-	</div>
-	<div>
-		<p>Commodi incidunt voluptate, eveniet, pariatur at suscipit ipsum laudantium.</p>
-	</div>
-	<div>
-		<p>Repellendus et voluptatum, eligendi aperiam consectetur consequuntur molestias, ipsum.</p>
-	</div>
-	<div>
-		<p>Sit ullam, dolorum suscipit doloremque obcaecati, quidem cum natus!</p>
-	</div>
-	<div>
-		<p>Incidunt deserunt, doloremque labore neque illo, maxime debitis laudantium.</p>
-	</div>
-	<div>
-		<p>Dolore magni adipisci quo eveniet molestiae quam odit possimus.</p>
-	</div>
-	<div>
-		<p>Sapiente harum illo dicta, reprehenderit dolore voluptate. Tempora, nemo.</p>
-	</div>
-	<div>
-		<p>Placeat maiores, totam pariatur! Porro enim dolor, quis possimus.</p>
-	</div>
-	<div>
-		<p>Fugit eos, at cupiditate. Delectus dolorum sunt dolores quae.</p>
-	</div>
-	<div>
-		<p>Sint reprehenderit vel maxime, odio, atque accusantium quo numquam?</p>
-	</div>
-	<div id="merkedtxt">
-		<p><mark>Sapiente delectus tempore eos, rerum eum asperiores illo provident?</mark></p>
-	</div>
-	<div>
-		<p>Libero sint, explicabo qui, quis quae suscipit! Animi, iure.</p>
-	</div>
-	<div>
-		<p>Ut ea, omnis distinctio. Necessitatibus ea odit repudiandae voluptatum!</p>
-	</div>
-	<div>
-		<p>Necessitatibus magni quas quis laborum consequuntur quasi cum obcaecati.</p>
-	</div>
-	<div>
-		<p>Explicabo ab, eaque totam sint, cumque repellat! Dolorem, quasi.</p>
-	</div>
-	<div>
-		<p>Ut explicabo culpa debitis eligendi cupiditate excepturi ipsam repudiandae.</p>
-	</div>
-	<div>
-		<p>Non incidunt minus cumque nesciunt fuga nisi rerum nemo.</p>
-	</div>
-	<div>
-		<p>Qui, minima fugiat eius iste rerum eveniet quisquam quo.</p>
-	</div>
-	<div>
-		<p>Vel modi aspernatur, repellendus ipsa at illo ipsam? Id.</p>
-	</div>
-	<div>
-		<p>Libero dicta voluptatem, neque velit debitis quia voluptas corporis.</p>
-	</div>
-	<div>
-		<p>Porro incidunt molestias architecto, doloremque esse repellendus unde veniam.</p>
-	</div>
-	<div>
-		<p>Dolore modi accusamus sapiente similique laborum, enim nisi, tempora.</p>
-	</div>
-	<div>
-		<p>Expedita enim eum ab, corporis magni illum alias possimus.</p>
-	</div>
-	<div>
-		<p>Sequi perferendis, ea fuga, necessitatibus eum atque animi sint.</p>
-	</div>
-	<div>
-		<p>Sunt in omnis architecto eos quam, eius exercitationem dolore.</p>
-	</div>
-	<div>
-		<p>Natus dolorem labore, quas impedit dolor optio quidem reprehenderit.</p>
-	</div>
-	<div>
-		<del id="">
-			<p>Nostrum illum suscipit commodi, aspernatur molestiae aperiam hic dignissimos.</p>
-		</del>
-	</div>
-	<div>
-		<p>Molestias error cupiditate beatae, nobis ipsum ullam eaque unde!</p>
-	</div>
-	<div>
-		<p>Quasi veniam, voluptatibus repellendus cum beatae iusto quod voluptate.</p>
-	</div>
-	<div>
-		<p>Tempora, veniam repudiandae vel tenetur itaque, autem repellendus dolores.</p>
-	</div>
-	<div>
-		<p>Eum error at voluptate eveniet alias molestias iste vero!</p>
-	</div>
-	<div>
-		<p>Dolorum sapiente placeat harum assumenda, laborum consequuntur reiciendis, officiis!</p>
-	</div>
-	<div>
-		<p>Officiis sint magnam, magni quidem nam debitis laudantium impedit!</p>
-	</div>
-	<div>
-		<p>Pariatur numquam dolor aperiam totam, nulla officia dolores tempore.</p>
-	</div>
-	<div>
-		<p>Dolore dolorum voluptates eos, tempore nam reprehenderit doloribus, molestias?</p>
-	</div>
-	<div>
-		<p>Cum dignissimos in reiciendis nisi alias <mark><sub> accusamus suscipit</sub></mark> labore!</p>
-	</div>
-	<div>
-		<p>Deleniti veritatis, repellendus rerum. Repudiandae consequatur aut, libero quia.</p>
-	</div>
-	<div>
-		<p>Quod nulla in accusantium ipsum dolor necessitatibus deleniti labore.</p>
-	</div>
-	<div>
-		<p>Debitis expedita blanditiis voluptas, non, inventore voluptatibus repellendus dolorem.</p>
-	</div>
-	<div>
-		<p>Nostrum magni, beatae esse ea consectetur vero vitae omnis.</p>
-	</div>
-	<div>
-		<p>Sequi, quibusdam deleniti voluptatibus sed animi quo ut labore.</p>
-	</div>
-	<div>
-		<p>Ullam, ab, cupiditate quasi iure explicabo cum quidem saepe!</p>
-	</div>
-	<div>
-		<p>Dolorum mollitia, similique quibusdam impedit, autem ea sequi dolores.</p>
-	</div>
-	<div>
-		<p>Itaque iusto laborum, suscipit odit ad, praesentium veniam provident.</p>
-	</div>
-	<div>
-		<p>Corporis, pariatur eum ad qui ipsa id incidunt porro.</p>
-	</div>
-	<div>
-		<p>Nisi amet magnam cum eos culpa architecto perferendis, nihil.</p>
-	</div>
-	<div>
-		<p>Non atque impedit, sapiente qui perferendis totam maiores quam.</p>
-	</div>
-	<div>
-		<p>Consequuntur vero, dolorum repellat doloribus. Iste ex magni, sapiente.</p>
-	</div>
-	<div>
-		<p>Ut quae illo quas explicabo assumenda quis suscipit saepe.</p>
-	</div>
-	<div>
-		<p>Voluptas officia, atque est quae esse, earum eaque ut.</p>
-	</div>
-	<div>
-		<p>Sequi voluptates minima quasi pariatur ipsa consequuntur molestiae accusamus.</p>
-	</div>
-	<div>
-		<p>Reiciendis facilis repellat at commodi aperiam ad deserunt incidunt!</p>
-	</div>
-	<div>
-		<p>Dicta ipsam dolores nam veniam voluptatum, ipsa quo dolor.</p>
-	</div>
-	<div id="heldtxt">
-		<p>Molestias vitae, <sup><mark>modi. Numquam asperiores non</mark></sup> voluptates aperiam magni.</p>
-	</div>
-	<div>
-		<p>Praesentium architecto excepturi sit explicabo cupiditate illum, neque ducimus.</p>
-	</div>
-	<div>
-		<p>Laudantium ut dolorem explicabo aspernatur a possimus pariatur modi.</p>
-	</div>
-	<div>
-		<p>Animi nisi, adipisci itaque, iusto magnam accusantium vel perspiciatis!</p>
-	</div>
-	<div>
-		<p>Quae totam hic facilis molestias laudantium, sit enim. Unde.</p>
-	</div>
-	<div>
-		<p>Illo quod atque tenetur nostrum quo numquam saepe magni.</p>
-	</div>
+
+	<script src="script.js" ></script>
 </body>
 </html>

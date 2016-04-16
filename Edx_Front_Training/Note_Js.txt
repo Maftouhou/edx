@@ -1,0 +1,70 @@
+Javascript Note 
+===========================
+
+Logic
+___________________________
+- Ternary : "X ? y : z" If X is true, return Y other wize return Z
+
+
+
+Javascript Object
+___________________________
+- Methode : function stored in an object
+
+*** Object oriended langague califications : 
+- Encaplulation : sore related information in a object (ex : data, methodes)
+- Aggregation : Store one object in an other. 
+- Inheritance : the ability of a classe to inherite from one or meny other classe in some of its proprities or methodes. 
+- polymorphism : to rwite one function that serve in a varity of ways
+
+*** Some Built-in JS Object:
+-------------------------------
+Javascript Number
+Javascript Boolean
+Javascript String
+Javascript Array
+Javascript Date
+Javascript Math
+Javascript RegExp
+
+
+Callbacks
+-------------------------------
+- can be used as parameters 
+- anonimouse function can be a var and funciton at one : var nemeOfVarFunction = function(){}
+
+
+Manipulation the DOM
+-------------------------------
+within the console, we can request the the page and explore the DOM with the commande "Document" with parameteres. 
+We can get information about the DOM or Set information on the Html object
+
+
+Exception handling 
+-----------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
