@@ -72,6 +72,18 @@
 		/* span{
 			color: green;
 		} */
+
+		.car{
+			display: block;
+		}
+
+		.nat{
+			display: block;
+		}
+
+		.rec{
+			display: block;
+		}
 	</style>
 </head>
 <body>
@@ -90,6 +102,87 @@
 	<button id="btnId" class="btnClass">Get Current Time</button>
 </form>
 
-	<script src="script.js" ></script>
+<p>
+	<button id="wkrStr" onclick="startWorker()">Start Worker</button>
+</p>
+<p>
+	<button id="wkrStp" onclick="stopWorker()">Stop Worker</button>
+</p>
+<ul id="output">
+	
+</ul>
+
+	<button onclick="sendWsMssg()">Envoyer un message</button>
+<div id="dataws">
+</div>
+
+
+<section id="carousel">
+	<figure class="visible"><img src="cars.png" alt="">
+		<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing.</figcaption>
+	</figure>	
+
+	<figure class=""><img src="nat.png" alt="">
+		<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing.</figcaption>
+	</figure>	
+
+	<figure class=""><img src="rec.png" alt="">
+		<figcaption>Lorem ipsum dolor sit amet, consectetur adipisicing.</figcaption>
+	</figure>
+</section>
+
+<script>
+// var slideInterval = 3500;
+
+// function getFigures() {
+//     return document.getElementById('carousel').getElementsByTagName('figure');
+// }
+
+// function moveForward() {
+//     var pointer;
+//     var figures = getFigures();
+//     for (var i = 0; i < figures.length; i++) {
+//         if (figures[i].className == 'visible') {
+//             figures[i].className = '';
+//             pointer = i;
+//         }
+//     }
+	
+// 	console.log(figures);
+
+//     if (++pointer == figures.length) {
+//         pointer = 0;
+//     }
+//     figures[pointer].className = 'visible';
+//     setTimeout(moveForward, slideInterval);
+// }
+
+// function startPlayback() {    
+//     setTimeout(moveForward, slideInterval);
+// }
+
+// startPlayback();
+
+function sendDataToCallback(input, callback) {
+
+var newValue = input + 3;
+
+callback(newValue);
+
+}
+
+var originalData = 5;
+
+function handleCallback(value) {
+
+alert(value);
+
+}
+
+sendDataToCallback(originalData, handleCallback);
+	
+</script>
+
+	<script src="script2.js" ></script>
 </body>
 </html>
